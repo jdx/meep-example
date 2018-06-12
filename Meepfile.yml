@@ -1,10 +1,10 @@
 components:
-  "react-app/build":
-    type: "static"
-    spa: true
-  frontend:
-    type: "static"
-    spa: true
+  # "react-app/build":
+  #   type: "static"
+  #   spa: true
+  # frontend:
+  #   type: "static"
+  #   spa: true
   api:
-    type: node
+    buildpack: heroku/nodejs
     command: npm start
